@@ -19,8 +19,8 @@ public class FascinatingNumber {
     private static boolean isFascinatingNumber(int number) {
 
         boolean flag = true;
-        //String newNumber = ""+number+(number*2)+(number*3);
-        String newNumber = "174548822";
+        String newNumber = ""+number+(number*2)+(number*3);
+        //String newNumber = "174548822";
         System.out.println(newNumber);
         if(newNumber.length() > 9)
             flag = false;
